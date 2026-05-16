@@ -1,0 +1,12 @@
+let a = 0;
+let b = 1;
+let count = 0;
+print(a);
+print(b);
+while (count < 6) {
+    let temp = a + b;
+    a = b;
+    b = temp;
+    print(b);
+    count = count + 1;
+}

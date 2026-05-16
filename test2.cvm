@@ -1,0 +1,7 @@
+let a = 15;
+let b = 20;
+if (a < b) {
+    print(1);
+} else {
+    print(0);
+}

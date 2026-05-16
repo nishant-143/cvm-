@@ -1,0 +1,7 @@
+let i = 1;
+let total = 0;
+while (i < 6) {
+    total = total + i;
+    i = i + 1;
+}
+print(total);
